@@ -1,6 +1,8 @@
 # aws-cloud-utility
 
- It is always advisable to use IAC for spinning up resources  but sometimes for ad-hoc testing , I use AWS console for creating resources.  There was one particular instance where I had kept my LB in ap-south-1 for couple of months incurring huge bill. I tend to check in us-east-region and skip other regions. I am learning Go and thought to implement a small utility for checking whether there are any running ec2 , unattached EIP or load balancer in regions that are frequently used.
+ It is always advisable to use IAC for spinning up resources  but sometimes for ad-hoc testing , I use AWS console for creating resources.  There was one particular instance where I had kept my LB in ap-south-1 for couple of months incurring huge bill. I tend to check in us-east-region and skip other regions which led to the huge bill.
+
+I am learning Go and thought to implement a small utility for checking whether there are any running ec2 , unattached EIP or load balancer in regions that are frequently used.
 
  Regions, port are configured in config.json
 

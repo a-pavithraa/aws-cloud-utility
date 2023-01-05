@@ -12,10 +12,9 @@
 }
 ```
 
-APIs available 
+API Endpoints
 
-| GET    /api/ec2/details           --> Gets all the EC2 instances along with state grouped by regions<br/> GET    /api/ec2/start              --> Start EC2<br/> GET    /api/ec2/stop              --> Stop EC2<br/> GET    /api/eip/details           --> Gets all unattached Elastic IPs<br/> GET    /api/eip/release          --> Release Elastic IP<br/> GET    /api/s3                        --> Gets all S3 buckets grouped by regions<br/> GET    /api/lb/details            --> Gets load balancers grouped by regions<br/> GET    /api/lb/delete             --> Delete Load Balancer<br/> GET    /api/dd/details           --> Gets DynamoDB tables |
-| ------------------------------------------------------------ |
+GET    /api/ec2/details           --> Gets all the EC2 instances along with state grouped by regions<br/> GET    /api/ec2/start              --> Start EC2<br/> GET    /api/ec2/stop              --> Stop EC2<br/> GET    /api/eip/details           --> Gets all unattached Elastic IPs<br/> GET    /api/eip/release          --> Release Elastic IP<br/> GET    /api/s3                        --> Gets all S3 buckets grouped by regions<br/> GET    /api/lb/details            --> Gets load balancers grouped by regions<br/> GET    /api/lb/delete             --> Delete Load Balancer<br/> GET    /api/dd/details           --> Gets DynamoDB tables
 
 **References**
 
